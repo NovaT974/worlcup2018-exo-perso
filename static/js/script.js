@@ -13,7 +13,7 @@ $(document).ready(function() {
                         teams = flag + pays;
                     }
                 // Affiche dans le Html les équipes
-                $('#teams').append('<article class="col-md-2 m-3 border"><p><a href="" data-toggle="modal" data-target="#exampleModal"><img class="w-100" src="' + listTeams[i].flag+ '" /></a><h2 class="nom_pays text-center text-primary">'  + listTeams[i].pays + '</h2> </p></article>');
+                $('#teams').append('<article class="col-md-2 m-3 border"><p><img class="w-100" src="' + listTeams[i].flag+ '" /><h2 class="text-center text-primary">'  + listTeams[i].pays + '</h2> </p></article>');
                 
             };
             
